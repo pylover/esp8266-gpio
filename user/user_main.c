@@ -101,9 +101,9 @@ void initio() {
     gpio16_output_conf();
     gpio16_output_set(0);
 
-    //os_timer_disarm(&t); 
-    //os_timer_setfn(&t, (os_timer_func_t *)toggle, NULL);
-    //os_timer_arm(&t, 500, 1);
+    os_timer_disarm(&t); 
+    os_timer_setfn(&t, (os_timer_func_t *)toggle, NULL);
+    os_timer_arm(&t, 500, 1);
 }
 
 

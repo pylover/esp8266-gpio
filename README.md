@@ -1,4 +1,4 @@
-# esp8266-httpserver-demo
+# esp8266-gpio
 https://github.com/pylover/esp8266-httpserver demo project
 
 
@@ -14,7 +14,7 @@ to setup your environment.
 cd myenv
 source activate.sh
 
-git clone --recursive git@github.com:pylover/esp8266-httpserver-demo.git demo
+git clone --recursive git@github.com:pylover/esp8266-gpio.git demo
 cd demo
 
 make clean
